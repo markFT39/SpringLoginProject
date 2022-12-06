@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class BoardController {
 
     @Autowired
-    BoardServiceImpl boardService;
+    BoardService boardService;
 
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     public String boardlist(Model model) {
