@@ -13,7 +13,7 @@
 <body>
     <div class="my-div">
         <h1>안녕하세요!</h1>
-        <P><a href="board/list">게시판으로 이동</a></P>
+        <P><a href="login/login">게시판으로 이동</a></P>
     </div>
 </body>
 </html>
