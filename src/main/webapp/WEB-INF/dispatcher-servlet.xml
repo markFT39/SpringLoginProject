@@ -21,7 +21,6 @@
             <mvc:exclude-mapping path="/img/**"/>
             <mvc:exclude-mapping path="/login/**"/>
             <mvc:exclude-mapping path="/board/**"/>
-            <mvc:exclude-mapping path="/views/**"/>
             <ref bean="loginCheckInterceptor" />
         </mvc:interceptor>
     </mvc:interceptors>
