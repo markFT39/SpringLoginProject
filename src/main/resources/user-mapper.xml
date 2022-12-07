@@ -3,6 +3,7 @@
 <mapper namespace="User">
         <select id="getUser" resultType="com.example.vo.UserVO">
         select userid, username from Member
-        where userid=#{userid} and password=password(#{password})
+        where userid=#{userid} and password=#{password}
     </select>
 </mapper>
+<!-- password의 password(#{password})를 제거했습니다 pdf 파일의 위아래 내용이 다르더라구요 -->
